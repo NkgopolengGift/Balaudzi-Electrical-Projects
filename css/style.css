@@ -66,9 +66,41 @@ img{
 
 /* Hero section start*/
 .slide1{
-    background-image: url('../img/back3.jpg');
+    background:linear-gradient(rgba(9,32, 50,0.4), rgba(9,32, 50,0.4)) ,url('../img/back3.jpg');
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
+}
+.slide2{
+    background:linear-gradient(rgba(9,32, 50,0.4), rgba(9,32, 50,0.4)) ,url('../img/background1.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*owl carousel*/
+.owl-prev,
+.owl-next{
+    position: absolute;
+    top: 49%;
+    width: 60px !important;
+    height: 60px !important;
+    display: grid;
+    place-items: center;
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    margin-top: -30px !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 12px;
+    border-radius: 100px !important;
+}
+.owl-prev:hover,
+.owl-next:hover{
+    background-color: #004EA1 !important;
+}
+.owl-prev{
+    left: 0;
+}
+.owl-next{
+    right: 0;
 }
 /* Hero section end*/

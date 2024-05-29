@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@400;500;600;700&display=swap');
+
+body{
+    font-family: "Barlow", sans-serif;
+    line-height: 1.7;
+    color: #92ABE4;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700 !important;
+    color: #092032;
+}
+a{
+    color: #092032;
+    text-align: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+img{
+    width: 100%;
+}
+.bg-cover{
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+
+/*nfo navbar start*/
+.top-nav{
+    background-color: #004EA1;
+}
+.top-nav p{
+    margin: 6px 20px 6px 0;
+    display: inline-block;
+    color: #ffffff;
+}
+.top-nav i,
+.top-nav span{
+    vertical-align: middle;
+}
+
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:hover{
+    font-weight: bold;
+    color: #56C5D0;
+}
+
+/*BTN*/
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+}
+.btn-brand{
+    background-color: #004EA1;
+    color: #ffffff;
+    border-color: #004EA1;
+}
+.btn-brand:hover{
+    color: #ffffff;
+    background-color: #052b56;
+}
+/*nfo navbar end*/
+
+/* Hero section start*/
+.slide1{
+    background-image: url('../img/back3.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Hero section end*/

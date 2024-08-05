@@ -5,10 +5,9 @@ body{
     line-height: 1.7;
     color: #92ABE4;
 }
-
 h1,h2,h3,h4,h5,h6 {
     font-weight: 700 !important;
-    color: #092032;
+    color:#004EA1;
 }
 a{
     color: #092032;
@@ -16,6 +15,7 @@ a{
     transition: all 0.4s ease;
     font-weight: 500;
 }
+
 img{
     width: 100%;
 }
@@ -28,17 +28,22 @@ img{
 /*nfo navbar start*/
 .top-nav{
     background-color: #004EA1;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #e9ecef;
 }
-.top-nav p{
-    margin: 6px 20px 6px 0;
-    display: inline-block;
-    color: #ffffff;
-}
-.top-nav i,
-.top-nav span{
-    vertical-align: middle;
+.top-nav p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #ffff;
 }
 
+.top-nav p i {
+    margin-right: 0.5rem;
+}
+
+/*nfo navbar ends */
 .navbar{
     box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.8);
 }
@@ -104,3 +109,41 @@ img{
     right: 0;
 }
 /* Hero section end*/
+
+
+/* About section Starts*/
+.about-section {
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  
+}
+
+.about-image-wrapper {
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+/* About section Ends*/
+footer {
+    background-color: #343a40;
+}
+
+footer p {
+    margin: 0;
+    color: #ffffff;
+}
+
+

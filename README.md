@@ -34,10 +34,6 @@ Balaudzi Electrical & Projects is dedicated to providing excellent service in th
 - Owl Carousel
 
 
-## Usage
-
-Simply open the `index.html` file in your preferred web browser to view the website. You can customize the content by editing the HTML, CSS, and JavaScript files as needed.
-
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue to discuss your ideas.

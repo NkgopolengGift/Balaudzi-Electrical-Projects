@@ -38,10 +38,6 @@ Balaudzi Electrical & Projects is dedicated to providing excellent service in th
 
 Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue to discuss your ideas.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
-
 ## Contact
 
 For any inquiries or feedback, please contact:
@@ -50,4 +46,3 @@ For any inquiries or feedback, please contact:
 - **Phone:** 073 0051 613 / 071 5800 450
 - **Address:** Stand No 234, Ga-Phooko Village, Sekgosese, Limpopo, 0814
 
-Thank you for visiting our repository! We hope you find this project useful and informative.

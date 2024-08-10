@@ -1,24 +1,12 @@
 $(document).ready(function(){
-
-    //hero slider
-    $('#hero-slider').owlCarousel({
-        loop:true,
-        margin:0,
-        nav:true,
-        items:1,
-        navText: ['PREV','NEXT'],
-        dots:false,
-        smartSpeed:1000,
-        responsive:{
-            0:{
-                
-            },
-            600:{
-                
-            },
-            1000:{
-                
-            }
-        }
-    })
+    $("#hero-slider").owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000, // Time in milliseconds before switching to the next slide
+        // autoplayHoverPause: true, // Pause on hover
+        nav: true,
+        // navText: ["<span class='owl-prev'>PREV</span>", "<span class='owl-next'>NEXT</span>"],
+        // dots: true,
+    });
 });
